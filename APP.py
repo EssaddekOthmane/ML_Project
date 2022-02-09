@@ -296,7 +296,7 @@ st.write("Whould you like to tune your model using grid ")
 search = GridSearchCV(choix_classifieur.algo,choix_classifieur.grid_param)#, scoring='accuracy', n_iter = 100, cv = 3, verbose=2, random_state=42, n_jobs = -1) #, scoring='accuracy', n_jobs=-1, cv=cv)
 #search =RandomizedSearchCV(choix_classifieur.algo,choix_classifieur.grid_param)#, n_iter = 100, cv = 20, verbose=2, random_state=1, n_jobs = -1)
 result = search.fit(x_train, y_train)
-st.write("The precision of the tuned model using grid searsh is :",100*result.best_score_)
+st.write("The precision of the tuned model using grid search is :",100*result.best_score_)
 
 
 #   st.markdown("agregation arbk")
