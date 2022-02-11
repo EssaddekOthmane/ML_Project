@@ -141,7 +141,7 @@ class classifieur:#(str):#,par,X_trai,Y_train,X_test,Y_test):
     self.algo.fit(X_train,Y_train)
   
   def get_feature(self):
-    #Get features avec Random forest
+    #Get features w/ Random forest and log-reg
 # from sklearn.feature_selection import RFE
 # from sklearn.linear_model import LogisticRegression
 # rfe_selector = RFE(estimator=LogisticRegression(), n_features_to_select=num_feats, step=10, verbose=5)
