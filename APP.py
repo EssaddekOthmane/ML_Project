@@ -24,7 +24,7 @@ from sklearn.model_selection import RandomizedSearchCV
 st.title("Comparator of usual classification models")
 
 st.subheader("Authors:")
-st.markdown("Georges RAHAL    \n Yassine BOUKHARI    \n Othmane ESSADDEK     \n Pape ale fal")
+st.markdown("Georges RAHAL    \n Yassine BOUKHARI    \n Othmane ESSADDEK     \n Pape ale fall")
 
 
 st.subheader("1. Introduction")
